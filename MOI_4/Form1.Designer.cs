@@ -30,9 +30,9 @@ namespace MOI_4
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,12 +45,12 @@ namespace MOI_4
             this.label1.TabIndex = 0;
             this.label1.Text = "tên đăng nhập";
             // 
-            // txtUserName
+            // textboxusername
             // 
-            this.txtUserName.Location = new System.Drawing.Point(145, 77);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(351, 20);
-            this.txtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(145, 77);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(351, 20);
+            this.textboxusername.TabIndex = 1;
             // 
             // label2
             // 
@@ -61,12 +61,12 @@ namespace MOI_4
             this.label2.TabIndex = 0;
             this.label2.Text = "mật khẩu";
             // 
-            // txtPassword
+            // textboxmatkhau
             // 
-            this.txtPassword.Location = new System.Drawing.Point(145, 122);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(351, 20);
-            this.txtPassword.TabIndex = 1;
+            this.textboxmatkhau.Location = new System.Drawing.Point(145, 122);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(351, 20);
+            this.textboxmatkhau.TabIndex = 1;
             // 
             // btnLogin
             // 
@@ -83,9 +83,9 @@ namespace MOI_4
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(579, 241);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -97,9 +97,9 @@ namespace MOI_4
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Button btnLogin;
     }
 }
