@@ -31,6 +31,8 @@ namespace MOI_4
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtmatkhau = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -49,11 +51,29 @@ namespace MOI_4
             this.txtUserName.Size = new System.Drawing.Size(351, 20);
             this.txtUserName.TabIndex = 1;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(82, 125);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mật khẩu";
+            // 
+            // txtmatkhau
+            // 
+            this.txtmatkhau.Location = new System.Drawing.Point(145, 122);
+            this.txtmatkhau.Name = "txtmatkhau";
+            this.txtmatkhau.Size = new System.Drawing.Size(351, 20);
+            this.txtmatkhau.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 246);
+            this.ClientSize = new System.Drawing.Size(579, 343);
+            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -67,6 +87,8 @@ namespace MOI_4
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtmatkhau;
     }
 }
 
