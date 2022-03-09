@@ -29,6 +29,10 @@ namespace MOI_4
             if (username == "admin" && password == "admin")
             {
                 MessageBox.Show("Login successful");
+                Form2 f2 = new Form2();
+                f2.ShowDialog();
+                this.Close();
+                
             }
         }
     }
