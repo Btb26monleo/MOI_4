@@ -70,11 +70,11 @@ namespace MOI_4
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(258, 165);
+            this.btnLogin.Location = new System.Drawing.Point(265, 167);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
