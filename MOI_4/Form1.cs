@@ -16,5 +16,20 @@ namespace MOI_4
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+            string username = textboxusername.Text;
+            string password = textboxmatkhau.Text;
+            if (username == "admin" && password == "admin")
+            {
+                MessageBox.Show("Login successful");
+            }
+        }
     }
 }
